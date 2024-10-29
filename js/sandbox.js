@@ -3,21 +3,23 @@ let hour=d.getHours();
 
 console.log(hour);
 
+
+
 if(hour<12){
     console.log("morning");
-    document.getElementById("greetings").innerText = "Goodmorning";
     document.getElementById("picture").src = "img/sun.png";
+    document.getElementById("greetings").innerText = "Good morning";
 }
 
 else if  (hour<17){
     console.log("afternoon");
-    document.getElementById("greetings").innerText = "GoodAfternoon";
-    document.getElementById("picture").src = "img/cloud.png";
+    document.getElementById("picture").src = "img/sunsets.png";
+    document.getElementById("greetings").innerText = "Good Afternoon";
 }
 
 else {
     console.log("night");
-    document.getElementById("greetings").innerText = "Goodnight";
+    document.getElementById("greetings").innerText = "Good night";
     document.getElementById("picture").src = "img/night.png";
 }
 
