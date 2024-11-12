@@ -3,7 +3,7 @@
 const d = new Date();
 // Store the value of getHours in variable
 let hour = d.getHours();
-// hour = 15;
+
 // hour = 20;
 // hour = 2;
 // console.log(hour);
